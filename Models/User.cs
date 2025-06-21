@@ -9,7 +9,7 @@ namespace PexelsDotNetSDK.Models
     {
 
         [JsonProperty("id")]
-        public int id { get; set; }
+        public long id { get; set; }
 
         [JsonProperty("name")]
         public string name { get; set; }
